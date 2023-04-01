@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray"
+        tools:context=".SonucActivity"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-46dp">
+
+        <Button
+            android:id="@+id/secilen3"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/rounded_corner"
+            app:layout_constraintEnd_toStartOf="@+id/secilen4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/secilen2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <Button
+            android:id="@+id/secilen2"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/rounded_corner"
+            app:layout_constraintEnd_toStartOf="@+id/secilen3"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/secilen1"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <Button
+            android:id="@+id/sonuc1"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toStartOf="@+id/sonuc2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/sonuc20"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintStart_toEndOf="@+id/sonuc19"
+            app:layout_constraintTop_toBottomOf="@+id/sonuc15" />
+
+        <Button
+            android:id="@+id/sonuc21"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintStart_toEndOf="@+id/sonuc20"
+            app:layout_constraintTop_toBottomOf="@+id/sonuc16" />
+
+        <Button
+            android:id="@+id/sonuc4"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toStartOf="@+id/sonuc5"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sonuc3"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/sonuc14"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toStartOf="@+id/sonuc15"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sonuc13"
+            app:layout_constraintTop_toBottomOf="@+id/sonuc8" />
+
+        <Button
+            android:id="@+id/sonuc22"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="78dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sonuc17" />
+
+        <Button
+            android:id="@+id/sonuc13"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toStartOf="@+id/sonuc14"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sonuc7" />
+
+        <Button
+            android:id="@+id/sonuc15"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toStartOf="@+id/sonuc16"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sonuc14"
+            app:layout_constraintTop_toBottomOf="@+id/sonuc9" />
+
+        <Button
+            android:id="@+id/sonuc17"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toStartOf="@+id/sonuc18"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sonuc16"
+            app:layout_constraintTop_toBottomOf="@+id/sonuc11" />
+
+        <Button
+            android:id="@+id/sonuc18"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sonuc17"
+            app:layout_constraintTop_toBottomOf="@+id/sonuc12" />
+
+        <Button
+            android:id="@+id/sonuc16"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toStartOf="@+id/sonuc17"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sonuc15"
+            app:layout_constraintTop_toBottomOf="@+id/sonuc10" />
+
+        <Button
+            android:id="@+id/sonuc19"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="78dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sonuc14" />
+
+        <Button
+            android:id="@+id/sonuc5"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toStartOf="@+id/sonuc6"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sonuc4"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/sonuc6"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sonuc5"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/sonuc2"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toStartOf="@+id/sonuc3"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sonuc1"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/sonuc3"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toStartOf="@+id/sonuc4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sonuc2"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/sonuc8"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toStartOf="@+id/sonuc9"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sonuc7"
+            app:layout_constraintTop_toBottomOf="@+id/sonuc2" />
+
+        <Button
+            android:id="@+id/sonuc10"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toStartOf="@+id/sonuc11"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sonuc9"
+            app:layout_constraintTop_toBottomOf="@+id/sonuc4" />
+
+        <Button
+            android:id="@+id/sonuc11"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toStartOf="@+id/sonuc12"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sonuc10"
+            app:layout_constraintTop_toBottomOf="@+id/sonuc5" />
+
+        <Button
+            android:id="@+id/sonuc12"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sonuc11"
+            app:layout_constraintTop_toBottomOf="@+id/sonuc6" />
+
+        <Button
+            android:id="@+id/sonuc7"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toStartOf="@+id/sonuc8"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sonuc1" />
+
+        <Button
+            android:id="@+id/sonuc9"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toStartOf="@+id/sonuc10"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sonuc8"
+            app:layout_constraintTop_toBottomOf="@+id/sonuc3" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="ÇEKİLİŞ SONUÇLARI"
+            android:textColor="@color/red"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="SİZİN SEÇTİKLERİNİZ"
+            android:textColor="@color/red"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sonuc20" />
+
+        <Button
+            android:id="@+id/secilen7"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toStartOf="@+id/secilen8"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/secilen6"
+            app:layout_constraintTop_toBottomOf="@+id/secilen2" />
+
+        <Button
+            android:id="@+id/secilen1"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toStartOf="@+id/secilen2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <Button
+            android:id="@+id/secilen10"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/secilen9"
+            app:layout_constraintTop_toBottomOf="@+id/secilen5" />
+
+        <Button
+            android:id="@+id/secilen9"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toStartOf="@+id/secilen10"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/secilen8"
+            app:layout_constraintTop_toBottomOf="@+id/secilen4" />
+
+        <Button
+            android:id="@+id/secilen8"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toStartOf="@+id/secilen9"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/secilen7"
+            app:layout_constraintTop_toBottomOf="@+id/secilen3" />
+
+        <Button
+            android:id="@+id/secilen6"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toStartOf="@+id/secilen7"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/secilen1" />
+
+        <Button
+            android:id="@+id/secilen5"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="112dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/secilen4"
+            app:layout_constraintTop_toBottomOf="@+id/sonuc18" />
+
+        <Button
+            android:id="@+id/secilen4"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/rounded_corner"
+            android:clickable="false"
+            app:layout_constraintEnd_toStartOf="@+id/secilen5"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/secilen3"
+            app:layout_constraintTop_toBottomOf="@+id/sonuc21" />
+
+        <TextView
+            android:id="@+id/bilinen_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="67dp"
+            android:text="BİLİNEN SAYI ADEDİ"
+            android:textColor="@color/red"
+            app:layout_constraintEnd_toStartOf="@+id/textView4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/secilen7" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="67dp"
+            android:text="KAZANDIĞINIZ İKRAMİYE"
+            android:textColor="@color/red"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/bilinen_txt"
+            app:layout_constraintTop_toBottomOf="@+id/secilen9" />
+
+        <TextView
+            android:id="@+id/adet_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="127dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/ikramiye_txt"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bilinen_txt" />
+
+        <TextView
+            android:id="@+id/ikramiye_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="92dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

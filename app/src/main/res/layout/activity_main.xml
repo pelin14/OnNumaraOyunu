@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:backgroundTint="@color/gray"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tahmin1"
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="120dp"
+        android:text="1. TAHMİN"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cevap1"
+        android:layout_width="123dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="65dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tahmin1" />
+
+    <TextView
+        android:id="@+id/tahmin2"
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="15dp"
+        android:text="2. TAHMİN"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cevap1" />
+
+    <EditText
+        android:id="@+id/cevap2"
+        android:layout_width="123dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="65dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tahmin2" />
+
+    <TextView
+        android:id="@+id/tahmin3"
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="15dp"
+        android:text="3. TAHMİN"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cevap2" />
+
+    <EditText
+        android:id="@+id/cevap3"
+        android:layout_width="123dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="65dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tahmin3" />
+
+    <TextView
+        android:id="@+id/tahmin4"
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="15dp"
+        android:text="4. TAHMİN"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cevap3" />
+
+    <EditText
+        android:id="@+id/cevap4"
+        android:layout_width="123dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="65dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tahmin4" />
+
+    <TextView
+        android:id="@+id/tahmin5"
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="15dp"
+        android:text="5. TAHMİN"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cevap4" />
+
+    <EditText
+        android:id="@+id/cevap5"
+        android:layout_width="123dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="65dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tahmin5" />
+
+    <TextView
+        android:id="@+id/tahmin6"
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="80dp"
+        android:text="6. TAHMİN"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cevap6"
+        android:layout_width="123dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="65dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tahmin6" />
+
+    <TextView
+        android:id="@+id/tahmin7"
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="80dp"
+        android:text="7. TAHMİN"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cevap6" />
+
+    <EditText
+        android:id="@+id/cevap7"
+        android:layout_width="123dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="65dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tahmin7" />
+
+    <TextView
+        android:id="@+id/tahmin8"
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="80dp"
+        android:text="8. TAHMİN"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cevap7" />
+
+    <EditText
+        android:id="@+id/cevap8"
+        android:layout_width="123dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="65dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tahmin8" />
+
+    <TextView
+        android:id="@+id/tahmin9"
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="80dp"
+        android:text="9. TAHMİN"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cevap8" />
+
+    <EditText
+        android:id="@+id/cevap9"
+        android:layout_width="123dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="65dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tahmin9" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="80dp"
+        android:text="10. TAHMİN"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cevap9" />
+
+    <EditText
+        android:id="@+id/cevap10"
+        android:layout_width="123dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="65dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <Button
+        android:id="@+id/onaylaButton"
+        android:layout_width="153dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="52dp"
+        android:text="ONAYLA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="ON NUMARA"
+        android:textColor="@color/red"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
